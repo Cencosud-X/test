@@ -12,7 +12,7 @@ Using infrastructure as code allows you to declare infrastructure components in 
  6. Define [variables](https://developer.hashicorp.com/terraform/language/values/variables) specifying the data type and place in some cases, default values.
  7. Define [output](https://developer.hashicorp.com/terraform/language/values/outputs) with 2 results.
  8. Create the tfvars in json format.
- 9. Create a [módule](https://developer.hashicorp.com/terraform/language/modules/syntax).
+ 9. Create a [template](https://developer.hashicorp.com/terraform/language/modules/syntax).
  10. Create an architecture diagram of the infrastructure created.
 
 ## Technical restrictions.
