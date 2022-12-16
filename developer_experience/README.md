@@ -11,8 +11,8 @@ Using infrastructure as code allows you to declare infrastructure components in 
  5. Define providers with specific versions.
  6. Define [variables](https://developer.hashicorp.com/terraform/language/values/variables) specifying the data type and place in some cases, default values.
  7. Define [output](https://developer.hashicorp.com/terraform/language/values/outputs) with 2 results.
- 8. Create the tfvars in json format.
- 9. Create a [template](https://developer.hashicorp.com/terraform/language/modules/syntax).
+ 8. Create a [template](https://developer.hashicorp.com/terraform/language/modules/syntax).
+ 9. Create the tfvars in json format.
  10. Create an architecture diagram of the infrastructure created.
 
 ## Technical restrictions.
@@ -20,7 +20,6 @@ Using infrastructure as code allows you to declare infrastructure components in 
  - You can use any type of resource and provider.
  - The result of the executed commands must be uploaded to the repository created.
  - Define commits with a standard to have a history of changes.
- - It is not necessary to create the infra.
 
 ### Additional features.
 
